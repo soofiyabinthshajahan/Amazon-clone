@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color:#131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:100;
+    top:0;
+    position: sticky;
+}
+
+.header-logo {
+object-fit: contain;
+    width: 100px;
+    height: 60px;
+}
+span{
+    color: #ffff;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_searchicon{
+    background: #cd9042;
+}
+
+.nav-options{
+    display: grid;
+    row-gap: .5rem;
+}
