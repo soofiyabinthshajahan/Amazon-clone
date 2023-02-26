@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
+    font-family: 'Petrona', serif;}
 
 .header {
     width: 100%;
@@ -47,12 +47,12 @@ input {
 }
 
 .option-one {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .option-two {
-    font-size: 13px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .search-input {
@@ -68,7 +68,15 @@ input {
     margin-right: 10px;
     color: white;
 }
-
+.basket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.basket-count{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 span {
     color: #ffff;
 }
