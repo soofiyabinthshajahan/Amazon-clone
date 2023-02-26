@@ -16,28 +16,28 @@ function Header() {
 
       <div className="header-nav">
         <div className="nav-options">
-          <span className='optionOne'>
+          <span className='option-one'>
             Hello
           </span>
-          <span className='optionOne'>
+          <span className='option-two'>
             Sign-in
           </span>
         </div>
 
         <div className="nav-options">
-        <span className='optionOne'>
+        <span className='option-one'>
             Returns &
           </span>
-          <span className='optionOne'>
+          <span className='option-two'>
             Orders
           </span>
         </div>
 
         <div className="nav-options">
-        <span className='optionOne'>
+        <span className='option-one'>
             Your
           </span>
-          <span className='optionOne'>
+          <span className='option-two'>
             Prime
           </span>
         </div>
