@@ -10,9 +10,12 @@ function Product() {
             <strong>19.99</strong>
         </p>
         <div className="product-rating">
-            
+            <span role="img" aria-label=''>⭐</span>
         </div>
+
       </div>
+      <img src='https://m.media-amazon.com/images/I/315vs3rLEZL._AC_SY200_.jpg' className='product-image' alt='img'></img>
+      <button>Add to Cart</button>
     </div>
   )
 }

@@ -18,10 +18,10 @@ function Header() {
       <div className="header-nav">
         <div className="nav-options">
           <span className='option-one'>
-            Hello
+            Hello Sign-in
           </span>
           <span className='option-two'>
-            Sign-in
+            Accounts & lists
           </span>
         </div>
 
@@ -44,11 +44,11 @@ function Header() {
         </div>
 
         <div className="basket">
-          <LocalMallOutlinedIcon className='basket' />
+       
           <span className='option-two basket-count'>
             0
-          </span>
-
+            </span>
+          <LocalMallOutlinedIcon className='basket' />
         </div>
 
       </div>

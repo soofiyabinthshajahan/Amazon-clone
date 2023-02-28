@@ -12,13 +12,18 @@ function Home() {
       <div className="home-row">
         <Product />
         <Product />
+        <Product />
+
       </div>
       <div className="home-row">
-        <Product />
+      <Product />
         <Product />
         <Product />
       </div>
       <div className="home-row">
+      <Product />
+        <Product />
+        <Product />
         <Product />
 
       </div>
