@@ -1,0 +1,10 @@
+.Single{
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    max-width: 300px;
+    max-height: 430px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+}

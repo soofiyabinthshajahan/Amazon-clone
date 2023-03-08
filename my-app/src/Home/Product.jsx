@@ -1,21 +1,33 @@
 import React from 'react'
 import '../Home/Product.css'
-function Product() {
+function Product({title,image1,image2,image3,image4,caption1,caption2,caption3,caption4}) {
   return (
     <div className='product'>
       <div className="product-info">
-        <p>The Lean Startup</p>
-        <p className='product-price'>
-            <small>$</small>
-            <strong>19.99</strong>
-        </p>
-        <div className="product-rating">
-            <span role="img" aria-label=''>⭐</span>
-        </div>
-
+        <h2>{title}</h2>
       </div>
-      <img src='https://m.media-amazon.com/images/I/315vs3rLEZL._AC_SY200_.jpg' className='product-image' alt='img'></img>
-      <button>Add to Cart</button>
+      <div className="image-section">
+
+     
+      <div className="image">
+      <img src={image1} className='product-image' alt='img'></img>
+      <p>{caption1}</p>
+      </div>
+     <div className="image">
+     <img src={image2} className='product-image' alt='img'></img>
+      <p>{caption2}</p>
+     </div>
+     <div className="image">
+     <img src={image3} className='product-image' alt='img'></img>
+      <p>{caption3}</p>
+     </div>
+     <div className="image">
+     <img src={image4} className='product-image' alt='img'></img>
+      <p>{caption4}</p>
+     </div>
+     
+     </div>
+      <a href='#123'>See more</a>
     </div>
   )
 }
