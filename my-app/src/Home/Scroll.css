@@ -1,0 +1,44 @@
+.scrollable-section {
+    height: 280px;
+    max-height: 280px;
+    overflow-x: visible;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    background-color: white;
+    margin: 20px;
+    width: 100%;
+    max-width: none;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: white;
+    width: 200px;   
+}
+.images img{
+    margin-right: 25px;
+}
+h2{
+    margin: 10px;
+    font-weight: 900;
+    font-size: large;
+}
+.scrollable-section::-webkit-scrollbar {
+    width: 6px; /* increase width */
+    height: 6px; /* increase height */
+  }
+  
+  .scrollable-section::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .scrollable-section::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+    width: 6px; /* increase width */
+    height: 6px; /* increase height */
+  }
