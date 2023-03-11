@@ -5,11 +5,12 @@ import Single from './Single'
 import Scrollsection from './Scrollsection'
 import Banner from './Banner'
 
+
 function Home() {
   return (
     <div className='home'>
       <div className="main-container">
-        <img src="https://m.media-amazon.com/images/I/61oXiG7vPkL._SX3000_.jpg" className='home-banner' alt="img" />
+        <img src="https://m.media-amazon.com/images/I/81FAkaxUMaL._SX3000_.jpg" alt="" className='home-banner'></img>
       </div>
 
       <div className="home-row">
