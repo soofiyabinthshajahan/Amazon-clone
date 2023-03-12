@@ -28,8 +28,8 @@ h2{
     font-size: large;
 }
 .scrollable-section::-webkit-scrollbar {
-    width: 6px; /* increase width */
-    height: 6px; /* increase height */
+    width: 4px; /* increase width */
+    height: 4px; /* increase height */
   }
   
   .scrollable-section::-webkit-scrollbar-track {
@@ -39,6 +39,6 @@ h2{
   .scrollable-section::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 8px;
-    width: 6px; /* increase width */
-    height: 6px; /* increase height */
+    width: 4px; /* increase width */
+    height: 4px; /* increase height */
   }

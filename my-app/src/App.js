@@ -1,21 +1,17 @@
 import React from "react";
-import Header from "./Head/Header";
+import Explore from "./Explore/Explore";
 import Home from "./Home/Home";
-import { BrowserRouter as Router,Route } from "react-router-dom"
-import { Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Switch>
-          <Route path="/">
-            <Header />
-            <Home />
-          </Route>
-        </Switch>
-
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="explore" element={<Explore/>}/>
+        </Routes>
       </div>
     </Router >
   );

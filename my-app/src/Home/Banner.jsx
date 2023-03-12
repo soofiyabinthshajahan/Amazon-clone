@@ -2,10 +2,10 @@ import React from 'react'
 import '../Home/Banner.css'
 
 
-function Banner() {
+function Banner({bannerImage}) {
   return (
     <div className='banner'>
-      <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt=''></img>
+      <img src={bannerImage} alt=''></img>
     </div>
   )
 }

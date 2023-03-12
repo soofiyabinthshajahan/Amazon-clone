@@ -4,11 +4,13 @@ import Product from './Product'
 import Single from './Single'
 import Scrollsection from './Scrollsection'
 import Banner from './Banner'
+import Header from '../Head/Header'
 
 
 function Home() {
   return (
     <div className='home'>
+      <Header/>
       <div className="main-container">
         <img src="https://m.media-amazon.com/images/I/81FAkaxUMaL._SX3000_.jpg" alt="" className='home-banner'></img>
       </div>
@@ -26,6 +28,10 @@ function Home() {
         <Product title="Bring delight to your home, this Holi" image1="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Holi/QC-4/Artboard_1-1x._SY116_CB612887674_.jpg" caption1="Home entertainment & TV" image2="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Holi/QC-4/Artboard_2-1x._SY116_CB612887674_.jpg" caption2="ACs & refrigerators"
           image3="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Holi/QC-4/Artboard_3-1x._SY116_CB612887674_.jpg" caption3="Furniture & home upgrade" image4="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Holi/QC-4/Artboard_4-1x._SY116_CB612887674_.jpg" caption4="Kitchen & home essentials"
         />
+
+      </div>
+      <div className="home-row">
+      <Banner bannerImage="https://m.media-amazon.com/images/G/31/img23/Fashion/Event/MFD/Mar23/Topscroll/PC/MFD2._CB595089956_.jpg"/>
 
       </div>
       <div className="home-row">
@@ -50,6 +56,9 @@ function Home() {
           image2="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/Maharastha_1x_678._SY116_CB616126380_.jpg" caption2="Maharashtra"
           image3="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/Gujarat_1x_122._SY116_CB616126380_.jpg" caption3="Gujarat"
           image4="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/TN_1x_987._SY116_CB616126380_.jpg" caption4="Tamil Nadu" />
+      </div>
+      <div className="home-row">
+        <Banner bannerImage="https://images-eu.ssl-images-amazon.com/images/G/31/Biss_2023/HSS/BISS_1500x300-PC.jpg"/>
       </div>
       <div className="home-row">
 
@@ -80,6 +89,9 @@ function Home() {
         />
       </div>
       <div className="home-row">
+        <Banner bannerImage="https://images-eu.ssl-images-amazon.com/images/G/31/img23/OHL/January/Hom15/PC_Coupon_stripe.gif"/>
+      </div>
+      <div className="home-row">
         <Single title="Bestselling Smartwatch starts at ₹1,999" image="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_2._SY304_CB614835787_.jpg"/>
         <Single title="Starting ₹5199 | Accelerate your" image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/Cycle_gw_pc_single_category_card_2x_379x304._SY304_CB618024063_.jpg"/>
         <Single title="Keep shopping for" image="https://m.media-amazon.com/images/I/41skB7kHQbL._AC_SY200_.jpg"/>
@@ -89,7 +101,7 @@ function Home() {
         image4="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Holi/QC-3/Artboard_4-1x._SY116_CB612887854_.jpg" caption4="Party games & video games"/>
       </div>
       <div className="home-row">
-        <Banner/>
+        <Banner bannerImage="https://m.media-amazon.com/images/G/31/img23/Fashion/Event/MFD/Feb23/N2GL/1._CB614017815_.gif"/>
       </div>
     </div>
   )
